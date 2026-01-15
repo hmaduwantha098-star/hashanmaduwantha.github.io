@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Gallery — ExploreTour Sri Lanka</title>
+  <meta name="description" content="Photo gallery showcasing Sri Lanka's beautiful landscapes, wildlife, culture, and tour experiences.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    figure {
+      margin: 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background: white;
+    }
+    
+    figure img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    figcaption {
+      padding: 10px 0;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1><a href="index.html">ExploreTour Sri Lanka</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">faq</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Photo Gallery</h1>
+    <p class="intro">Explore Sri Lanka through our collection of photographs showcasing the island's natural beauty, cultural heritage, and unforgettable experiences.</p>
+
+    <nav class="gallery-categories">
+      <h2>Browse by Category:</h2>
+      <ul>
+        <li><a href="#landscapes">Landscapes</a></li>
+        <li><a href="#wildlife">Wildlife</a></li>
+        <li><a href="#culture">Culture</a></li>
+        <li><a href="#beaches">Beaches</a></li>
+        <li><a href="#experiences">Tour Experiences</a></li>
+      </ul>
+    </nav>
+
+    <section id="landscapes">
+      <h2>Beautiful Landscapes</h2>
+      <div class="gallery-grid">
+        <figure>
+          <img src="sigiriya1.jpeg" alt="Sigiriya Rock at sunrise with mist" width="400" height="300">
+          <figcaption>Sunrise at Sigiriya Rock Fortress</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="plants2.jpeg" alt="Green tea plantations in hill country" width="400" height="300">
+          <figcaption>Tea plantations in Nuwara Eliya</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="train.jpeg" alt="Scenic train passing through mountains" width="400" height="300">
+          <figcaption>Famous train journey from Ella to Kandy</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="bambarakanda.jpeg" alt="Bambarakanda Falls, Sri Lanka's tallest waterfall" width="400" height="300">
+          <figcaption>Bambarakanda Falls</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="wildlife">
+      <h2>Wildlife Encounters</h2>
+      <div class="gallery-grid">
+        <figure>
+          <img src="elephant.jpeg" alt="Elephant herd in Yala National Park" width="400" height="300">
+          <figcaption>Elephant family in Yala National Park</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="vilpattu.jpeg" alt="Leopard resting on tree branch" width="400" height="300">
+          <figcaption>Leopard sighting in Wilpattu</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="yala.jpeg" alt="Blue whale tail emerging from ocean" width="400" height="300">
+          <figcaption>Whale watching in Mirissa</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="bird.jpeg" alt="Sri Lanka's endemic bird species" width="400" height="300">
+          <figcaption>Endemic bird species</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="culture">
+      <h2>Cultural Heritage</h2>
+      <div class="gallery-grid">
+        <figure>
+          <img src="temple.jpeg" alt="Ancient Buddhist temple architecture" width="400" height="300">
+          <figcaption>Ancient temple architecture</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="dance.jpeg" alt="Traditional Kandyan dancer" width="400" height="300">
+          <figcaption>Traditional Kandyan dance performance</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="kandy.jpeg" alt="Colorful local vegetable market" width="400" height="300">
+          <figcaption>Local market in Kandy</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="temples.jpeg" alt="Temple of the Sacred Tooth Relic" width="400" height="300">
+          <figcaption>Temple of the Sacred Tooth, Kandy</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="beaches">
+      <h2>Pristine Beaches</h2>
+      <div class="gallery-grid">
+        <figure>
+          <img src="mirissa.jpeg" alt="Golden sand beach at sunset" width="400" height="300">
+          <figcaption>Sunset at Mirissa Beach</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="arugamba.jpeg" alt="Surfers at Arugam Bay" width="400" height="300">
+          <figcaption>Surfing in Arugam Bay</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="unawatuna.jpeg" alt="Calm waters at Unawatuna Beach" width="400" height="300">
+          <figcaption>Unawatuna Beach</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="tangalla.jpeg" alt="Palm trees lining a beach" width="400" height="300">
+          <figcaption>Palm-fringed beach in Tangalle</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="experiences">
+      <h2>Tour Experiences</h2>
+      <div class="gallery-grid">
+        <figure>
+          <img src="50.jpeg" alt="Tourists participating in tea tasting" width="400" height="300">
+          <figcaption>Tea tasting experience</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="52.jpeg" alt="Cooking class with local chef" width="400" height="300">
+          <figcaption>Traditional cooking class</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="53.jpeg" alt="Tourists in a tuk-tuk" width="400" height="300">
+          <figcaption>Tuk-tuk ride through Colombo</figcaption>
+        </figure>
+        
+        <figure>
+          <img src="54.jpeg" alt="Guide explaining spice plants" width="400" height="300">
+          <figcaption>Spice garden tour</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="photo-credit">
+      <p><em>Note: Some images are placeholders. Replace with your own high-quality photos for the best effect.</em></p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>ExploreTour</h4>
+        <p>Explore the natural beauty of Badulla and enjoy unforgettable travel experiences.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Contact</h4>
+        <p>Email: <a href="mailto:hmaduwantha098@gmail.com">hmaduwantha098@gmail.com</a></p>
+        <p>Phone: +94 70 213 6133</p>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <p>
+          <a href="#">Facebook</a> | 
+          <a href="#">Instagram</a> | 
+          <a href="#">TripAdvisor</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ExploreTour Sri Lanka. </p>
+    </div>
+  </footer>
+</body>
+</html>
